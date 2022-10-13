@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 2%;
+  padding: 10;
+  border: 10px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #fae9ff;
+  line-height: 1.5;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details,  
+footer,  hgroup, menu, section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+header > img {
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: inline-grid ;
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  float: left;
+  display: block;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+#food-pic {
+  max-width: 30%;
+  margin: auto;
+  align: center
+
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif
+}
+
+.user_review h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol {
+  list-style: korean-hanja-informal;
+}
+
+ol > li:nth-child(even) {
+   background: #e7e7e7;
+}
+
+ul.ingredients-list {
+  list-style: square inside
+}
+
+ul > li > a {
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  color: inherit
+}
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+input[type='radio'] {
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url(stars.png)
+}
+
+input[type='radio']:hover {
+  background-position: 30px 60px;
+}
+
+input[type='radio']:checked {
+  background-position: 30px 30px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#reviews {
+  text-align: center;
+  font
+}
+
+.rating {
+  cursor: pointer;
+  outline:none;
+}
+
+
+
+input[type]:last-child {
+  background-color: gold;
+}
+
+input[type]:last-child:hover {
+  background-color: rgb(198, 168, 0)
+}
+
+input
+
+footer {
+  text-align: center;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
